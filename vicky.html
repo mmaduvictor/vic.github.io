@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Vicky crypto</title>
+        <style>
+
+      div{
+            
+                
+            display: flex;
+      background-color:rgb(6, 6, 37);
+        align-items: center;
+      }
+     
+  
+
+    li{
+       list-style: none;
+       display: inline-block;
+       margin: 0 20px;
+       position: relative;
+       left:500px;
+       font-size: 20px;
+       color: beige;
+       top: 20px;
+       cursor: pointer;
+    } 
+
+    li::after{
+        content: " ";
+        width: 0;
+        height: 3px;
+        background-color: yellow;
+        position: absolute;
+        left: 0;
+        bottom: -10px;
+        transition: 0.5s;
+     }
+    li:hover::after{
+       width: 100%;
+     }
+     body{
+        background-color: rgb(9, 9, 43);
+        
+        background-repeat: no-repeat;
+        background-position: center bottom 100px;
+        background-attachment: fixed;
+        background-size: 700px;
+        
+
+     }  
+     .pic{
+       list-style: none;
+       display: inline-block;
+       margin: 0 20px;
+       position: relative;
+       right:350px;
+       bottom:  40px;
+       font-size: 20px;
+       color: beige;
+     }
+      h1{ 
+       font-size: 50px;
+       margin: 2px;
+       margin-left: 50px;
+       margin-top: 100px;
+      
+      
+     }
+     .button{
+       width: 200px;
+       height:45px;
+       font-size:20px;
+       background-color: rgb(108, 114, 165);
+       margin: 1px;
+       margin-right:50px;
+      border-radius: 10px;
+     }
+
+     button:hover{
+       background-color: firebrick;
+     }
+     #container{
+       display: flex;
+       flex-wrap: wrap;
+     }
+     #container> div{
+       background-color: blue;
+       font-size: 50px;
+       margin:20px;
+       padding: 20px;
+       width: 200px;
+     }
+     H2{
+       color: white;
+       padding-left: 50px;
+
+     }
+
+     
+  
+      </style>
+    </head>
+    <body class="body">
+    <div>
+       <ul>
+           <li> Products</li>
+           <li>Company</li>
+           <li>Learn</li>
+           <li>Prices</li>
+           <li>English</li>
+      </ul> 
+    </div>
+
+          <div>
+           <ul class="pic"> 
+               <li>vicrypto.com</li>
+               <li>NFT</li>
+            </ul>
+           </div>
+          
+
+            <h1 style="color: white;">Buy, trade and hold<br>hold over 500+<br>
+              cryptocurrency<br>on vicrypto
+
+              <form action="#" method="post"> 
+                <input type="text" placeholder="Email/phone number" title="Email/phone number" required="Email/phone number" style="width: 300px; height: 40px;">
+                <button style="color: white;" id="button:hover" class="button">Get started</button>
+                </form>
+                </h1> 
+          
+          <h1 style="color: white;"> Market trend: </h1>    
+        <!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/markets/cryptocurrencies/prices-all/" rel="noopener" target="_blank"><span class="blue-text">Cryptocurrency Markets</span></a> by TradingView</div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-screener.js" async>
+  {
+  "width": "2000",
+  "height": "490",
+  "defaultColumn": "overview",
+  "screener_type": "crypto_mkt",
+  "displayCurrency": "USD",
+  "colorTheme": "dark",
+  "locale": "en",
+  "isTransparent": true
+}
+  </script>
+</div>
+<!-- TradingView Widget END -->
+
+
+  
+
+
+
+
+                
+
+          
+       
+      
+        
+        
+    
+    </body>
+</html>
